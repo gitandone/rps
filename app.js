@@ -37,6 +37,10 @@ el.addEventListener("click", function(){
         }
     }
 
+    else if (userChoice == "bomb"){
+        alert("You cheater. But yea, you automatically win. Obviously bomb outdoes rock, paper, and scissors.")
+    }
+
     else {
         alert("You have selected an invalid choice.")
     }
